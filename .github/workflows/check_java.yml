@@ -15,4 +15,4 @@ jobs:
           cache: maven
       - uses: pmd/pmd-github-action@v2
         with:
-          rulesets: 'java/ruleset.xml'
+          rulesets: 'ruleset.xml'
