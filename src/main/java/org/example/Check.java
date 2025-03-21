@@ -6,7 +6,7 @@ public class Check {
         public String evenOrOdd(int num) {
             if (num % 2 == 0) {
             return "even";
-        } else {
+        }else {
             return "odd";
         }
     }
