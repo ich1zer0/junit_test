@@ -4,7 +4,7 @@ public class Check {
     private String unuse = "unuse";
 
         public String evenOrOdd(int num) {
-        if (num % 2 == 0) {
+            if (num % 2 == 0) {
             return "even";
         } else {
             return "odd";
