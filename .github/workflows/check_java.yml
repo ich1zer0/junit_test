@@ -2,7 +2,7 @@ name: Check Java
 on:
   push:
     #  pull_request:
-    paths: ['java/**/*.java']
+    paths: ['src/**/*.java']
 jobs:
   test:
     runs-on: ubuntu-latest
